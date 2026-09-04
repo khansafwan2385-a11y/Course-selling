@@ -56,19 +56,19 @@ footer{
 }
 .box2{
     display: flex;
-    gap:35px;
+    justify-content: space-evenly;
 }
 .box4{
     display: flex;
-    gap:35px;
+   justify-content: space-evenly;
 }
 .box5{
     display: flex;
-    gap:35px;
+   justify-content: space-evenly;
 }
 .box3{
     display: flex;
-    gap:35px;
+    justify-content: space-evenly;
 }
 .abox3{
     padding:  10px 20px;
