@@ -4,11 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -19,56 +17,37 @@ header {
   padding: 5px 50px;
   color: white;
   background-color: black;
-  z-index: 9999;
+  z-index: 100;
 }
-
 nav a {
   color: white;
   text-decoration: none;
   margin-left: 35px;
   font-size: 25px;
-  transition: 0.3s;
 }
-
-nav a:hover {
-  color: skyblue;
-}
-
 .setColor {
   background-color: #1f2730;
   color: white;
   text-align: center;
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-top: 50px;
 }
-
 .ya123 {
   padding-top: 100px;
   font-size: 60px;
   font-weight: bold;
+
   margin-top: 35px;
 }
-
 .ya1 {
   width: 850px;
-  max-width: 90%;
-  margin: 20px auto 0;
+  margin: 0 auto;
   font-size: 30px;
+  margin-top: 20px;
 }
-
 .link {
   color: white;
 }
-
-.btn1,
-.btn,
-.btn105,
-.btn1000 {
-  cursor: pointer;
-  border: none;
-  transition: transform 0.4s ease, background-color 0.4s ease;
-}
-
 .btn1 {
   background-color: blue;
   padding: 10px 25px;
@@ -77,80 +56,64 @@ nav a:hover {
   color: white;
   font-size: 20px;
 }
-
-.btn1:hover,
-.btn:hover,
-.btn105:hover,
-.btn1000:hover {
-  transform: scale(1.08);
-}
-
 .image {
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
-
 .imageChideren {
   width: 1100px;
-  max-width: 100%;
 }
-
 .text {
-  margin: 50px;
+  margin: 0 50px;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  margin-top: 50px;
 }
-
 .paragarap {
   max-width: 550px;
   font-size: 20px;
 }
-
 #ya {
   max-width: 500px;
   font-size: 40px;
 }
-
 .childCard {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  gap: 15px;
   border-radius: 15px;
   background-color: black;
   width: 250px;
-  color: white;
 }
-
 .card {
+  margin-top: 40px;
   margin: 60px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-}
 
+  display: flex;
+  justify-content: space-between;
+}
 .text10 {
-  padding: 100px 20px 20px;
-  max-width: 260px;
-}
+  padding-top: 100px;
+  padding-left: 20px;
 
+  max-width: 260px;
+  margin-bottom: 20px;
+}
 h3 {
   font-size: 40px;
   padding-top: 10px;
   margin-left: 25px;
   text-align: left;
 }
-
 .imageContainer {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
 }
-
 h6 {
   font-size: 50px;
 }
-
 .childPara {
   max-width: 700px;
   text-align: left;
@@ -161,84 +124,66 @@ h6 {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 15px;
 }
-
 .childImage {
   margin-right: 70px;
 }
-
 .childImage img {
   height: 600px;
   width: 500px;
-  max-width: 100%;
   margin-top: 15px;
-  object-fit: cover;
 }
-
 footer {
-  padding: 10px 0;
+  padding: 5px 0;
   color: white;
   background-color: black;
   text-align: center;
 }
-
 .imagenext {
   margin-top: 60px;
   display: flex;
   justify-content: center;
 }
-
 .box {
-  margin: 60px 40px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 50px;
 }
-
-.box .childBox {
-  width: 100%;
-}
-
 .childBox {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: black;
   border-radius: 20px;
   height: 300px;
+  width: 270px;
   text-align: center;
-  color: white;
-  padding: 15px;
 }
-
 .childBox img {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-top: 10px;
 }
-
 .childBox p {
   max-width: 250px;
   text-align: left;
-  margin: 20px auto;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-
 .name {
   margin-top: 5px;
   margin-bottom: 40px;
 }
-
 .coding {
   background-color: skyblue;
   padding: 40px;
   overflow: hidden;
 }
-
 .box100 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .t {
@@ -250,69 +195,59 @@ footer {
   border-radius: 5px;
   display: inline-block;
 }
-
 .box101 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
+  display: flex;
+
+  gap: 55px;
   color: white;
   margin-top: 40px;
 }
-
-.box101 .childBox,
-.box101 .shoes,
-.box101 .developer {
-  width: 100%;
-  min-width: 0;
+.box101 .childBox {
+  flex-shrink: 0;
 }
-
 .shoes {
   background-color: black;
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 300px;
+  width: 270px;
   border-radius: 20px;
-  overflow: hidden;
+  align-self: flex-start;
 }
-
 .color {
   color: red;
   margin-top: 10px;
 }
-
 .btn {
   background-color: red;
   color: white;
   font-weight: bold;
   padding: 5px 10px;
   margin-top: 10px;
-  border-radius: 5px;
 }
-
 .img1 {
   height: 150px;
-  width: 100%;
-  border-radius: 20px;
-  object-fit: cover;
-}
+  width: 270px;
 
+  border-radius: 20px;
+}
 .text100 {
   padding: 0 15px;
 }
-
 #para {
   margin-top: 3px;
 }
 
 .developer {
+  width: 270px;
   height: 300px;
   background-color: black;
   color: white;
+  flex-shrink: 0;
   border-radius: 20px;
   text-align: center;
   padding-top: 10px;
 }
-
 .image1 {
   width: 150px;
   height: 40px;
@@ -325,37 +260,31 @@ footer {
   width: 50px;
   border-radius: 50%;
 }
-
 .blue {
   color: blue;
   margin-top: 7px;
   margin-bottom: 12px;
 }
-
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
-  margin: 60px 40px;
-}
+  display: flex;
 
+  gap: 50px;
+}
 .box1000 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: whitesmoke;
-  min-height: 350px;
+  height: 350px;
+  width: 500px;
   border-radius: 40px;
   padding: 30px;
 }
-
 #yaya {
   margin-bottom: 25px;
   margin-top: 40px;
 }
-
 .textColor {
   color: blue;
 }
-
 .btn105 {
   background-color: blue;
   color: white;
@@ -363,256 +292,81 @@ footer {
   border-radius: 15px;
   padding: 12px;
 }
-
 .image101 {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 20px;
 }
-
 .image101 img {
   height: 70px;
   width: 120px;
   margin-top: 40px;
-  object-fit: contain;
 }
-
 .yaya100 {
   margin-top: 60px;
 }
-
 .aunga {
   background-color: black;
   padding: 60px 130px;
-  color: white;
 }
-
 #para105 {
   font-size: 20px;
-  margin-top: 15px;
 }
-
-.ticker {
-  overflow: hidden;
+.ticker{
+    overflow: hidden;
 }
+.ticker-track{
+    display: flex;
+    gap: 140px;
+    width: max-content;
+    animation-name: move;
+    animation-duration: 10s;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
-.ticker-track {
-  display: flex;
-  gap: 140px;
-  width: max-content;
-  animation: move 10s linear infinite;
 }
-
-.text1 {
-  white-space: nowrap;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-@keyframes move {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-.animation {
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-.animation:hover {
-  transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.box101 img,
-.childBox img,
-.childCard img,
-.image101 img {
-  transition: transform 0.5s ease;
-}
-
-.box101 img:hover,
-.childBox img:hover,
-.childCard img:hover,
-.image101 img:hover {
-  transform: scale(1.08);
-}
-
-.btn1000 {
-  transition: transform 0.5s ease;
-}
-
-.btn1000:hover {
-  background-color: aliceblue;
-  color: black;
-  transform: scale(1.1);
-}
-
-@media (max-width: 1100px) {
-  .card,
-  .box,
-  .box101 {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .imageChideren {
-    width: 90%;
-  }
-
-  .ya1 {
-    width: 90%;
-  }
-
-  .childImage {
-    margin-right: 20px;
-  }
-
-  .childImage img {
-    width: 400px;
-    height: 500px;
-  }
-}
-
-@media (max-width: 800px) {
-  header {
-    padding: 10px 20px;
-  }
-
-  nav a {
-    margin-left: 15px;
-    font-size: 18px;
-  }
-
-  .ya123 {
-    font-size: 45px;
-  }
-
-  .ya1 {
-    font-size: 22px;
-  }
-
-  .text {
-    margin: 40px 25px;
-    flex-direction: column;
-  }
-
-  .card,
-  .box,
-  .box101 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .card,
-  .box {
-    margin: 30px 20px;
-  }
-
-  .imageContainer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .childPara {
-    padding: 0 20px;
-  }
-
-  .childImage {
-    margin-right: 0;
-  }
-
-  .childImage img {
-    width: 100%;
-    height: auto;
-  }
-
-  .container {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-
-  .box1000 {
-    width: 100%;
-  }
-
-  .aunga {
-    padding: 40px 30px;
-  }
-}
-
-@media (max-width: 500px) {
-  header {
-    padding: 8px 10px;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  nav a {
-    margin-left: 8px;
-    font-size: 14px;
-  }
-
-  .setColor {
-    padding-top: 80px;
-  }
-
-  .ya123 {
-    padding-top: 60px;
-    font-size: 35px;
-  }
-
-  .ya1 {
-    font-size: 18px;
-  }
-
-  .card,
-  .box,
-  .box101 {
-    grid-template-columns: 1fr;
-  }
-
-  .card,
-  .box {
-    margin: 25px 15px;
-  }
-
-  .box101 {
-    padding: 5px;
-    gap: 20px;
-  }
-
-  .coding {
-    padding: 20px 15px;
-  }
-
-  h3 {
+.text1{
+    white-space: noWrap;
+    font-weight: 30px;
     font-size: 30px;
-    margin-left: 10px;
-  }
-
-  h6 {
-    font-size: 35px;
-  }
-
-  .childPara p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .box1000 {
-    min-height: auto;
-    padding: 20px;
-  }
-
-  .aunga {
-    padding: 30px 15px;
-  }
-
-  .image101 {
-    gap: 15px;
-  }
 }
+@keyframes move{
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(-50%);
+
+    }
+}
+.animation{
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+.animation:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px white;
+    
+   
+   
+}
+.btn1000{
+    transition: transform scale;
+    transition-duration: 4s;
+}
+.btn1000:hover{
+    background-color: aliceblue;
+    color: white;
+    color: black;
+   
+    
+     scale: 1.5;
+    
+}
+
