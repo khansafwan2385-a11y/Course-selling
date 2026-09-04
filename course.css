@@ -20,7 +20,7 @@ header {
     padding: 5px 50px;
     color: white;
     background-color: black;
-    z-index: 1000;
+    z-index: 99999;
 }
 
 nav a {
