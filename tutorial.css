@@ -78,21 +78,17 @@ footer{
     background-color: whitesmoke;
 
 }
-.box6{
-    
-    
-    padding:  10px 20px;
-    margin-top: 40px;
+
+.box6 {
+    padding: 10px 20px;
+    margin: 40px auto;
     border-radius: 8px;
     box-shadow: 0 0 0 0.1px;
     background-color: whitesmoke;
     width: 500px;
+    max-width: 100%;
     height: 600px;
-    justify-content: center;
-     margin-bottom: 40px;
-     text-align: center;
-    
-    
+    text-align: center;
 }
 .box6 h1{
     text-align: left;
