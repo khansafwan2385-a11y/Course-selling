@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}header{
+     top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    color: white;
+    background-color: black;
+}
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 35px;
+        font-size: 25px;
+}
+footer{ 
+    padding: 5px 0;
+    color: white;
+    background-color: black;
+    text-align: center;    
+}
+main{
+    margin-top: 38px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+     font-family:Arial, Helvetica, sans-serif;
+}
+.box1 h1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+
+.box1 h1{
+    text-align: center;
+   
+    justify-content: center;
+    
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+.box4{
+   
+    
+    margin-left: 85px;
+   
+    
+}
+
+
+
+.abox1{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    width: 270px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+   
+    
+}
+.abox1 h1{
+    text-align: center;
+    font-size: 18px;
+
+}
+.abox1 img{
+   
+    
+    width: 250px;
+    margin-bottom: 40px;
+}
+.abox1{
+    text-align: center;
+    justify-content: center;
+}
+.button1{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.button1{
+    transition: all;
+    transition-duration: 0.5s;
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-5px);
+}
+.abox1{
+    transition: all;
+    transition-duration: 2s;
+}
+.abox1:hover{
+    transform: scale(1.1);
+    
+}

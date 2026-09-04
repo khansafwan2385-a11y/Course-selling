@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+  color: white;
+  background-color: black;
+  z-index: 100;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 35px;
+  font-size: 25px;
+}
+.setColor {
+  background-color: #1f2730;
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 50px;
+}
+.ya123 {
+  padding-top: 100px;
+  font-size: 60px;
+  font-weight: bold;
+
+  margin-top: 35px;
+}
+.ya1 {
+  width: 850px;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.link {
+  color: white;
+}
+.btn1 {
+  background-color: blue;
+  padding: 10px 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.imageChideren {
+  width: 1100px;
+}
+.text {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.paragarap {
+  max-width: 550px;
+  font-size: 20px;
+}
+#ya {
+  max-width: 500px;
+  font-size: 40px;
+}
+.childCard {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  gap: 15px;
+  border-radius: 15px;
+  background-color: black;
+  width: 250px;
+}
+.card {
+  margin-top: 40px;
+  margin: 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.text10 {
+  padding-top: 100px;
+  padding-left: 20px;
+
+  max-width: 260px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 40px;
+  padding-top: 10px;
+  margin-left: 25px;
+  text-align: left;
+}
+.imageContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+h6 {
+  font-size: 50px;
+}
+.childPara {
+  max-width: 700px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+.childPara p {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.childImage {
+  margin-right: 70px;
+}
+.childImage img {
+  height: 600px;
+  width: 500px;
+  margin-top: 15px;
+}
+footer {
+  padding: 5px 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.imagenext {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.childBox {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  border-radius: 20px;
+  height: 300px;
+  width: 270px;
+  text-align: center;
+}
+.childBox img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.childBox p {
+  max-width: 250px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.name {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.coding {
+  background-color: skyblue;
+  padding: 40px;
+  overflow: hidden;
+}
+.box100 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.t {
+  border: 2px solid black;
+  margin: 0 3px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+.box101 {
+  display: flex;
+
+  gap: 55px;
+  color: white;
+  margin-top: 40px;
+}
+.box101 .childBox {
+  flex-shrink: 0;
+}
+.shoes {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 270px;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+.color {
+  color: red;
+  margin-top: 10px;
+}
+.btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.img1 {
+  height: 150px;
+  width: 270px;
+
+  border-radius: 20px;
+}
+.text100 {
+  padding: 0 15px;
+}
+#para {
+  margin-top: 3px;
+}
+
+.developer {
+  width: 270px;
+  height: 300px;
+  background-color: black;
+  color: white;
+  flex-shrink: 0;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.image1 {
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: black;
+}
+
+.logo1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.blue {
+  color: blue;
+  margin-top: 7px;
+  margin-bottom: 12px;
+}
+.container {
+  display: flex;
+
+  gap: 50px;
+}
+.box1000 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  height: 350px;
+  width: 500px;
+  border-radius: 40px;
+  padding: 30px;
+}
+#yaya {
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+.textColor {
+  color: blue;
+}
+.btn105 {
+  background-color: blue;
+  color: white;
+  margin-top: 25px;
+  border-radius: 15px;
+  padding: 12px;
+}
+.image101 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image101 img {
+  height: 70px;
+  width: 120px;
+  margin-top: 40px;
+}
+.yaya100 {
+  margin-top: 60px;
+}
+.aunga {
+  background-color: black;
+  padding: 60px 130px;
+}
+#para105 {
+  font-size: 20px;
+}
+.ticker{
+    overflow: hidden;
+}
+.ticker-track{
+    display: flex;
+    gap: 140px;
+    width: max-content;
+    animation-name: move;
+    animation-duration: 10s;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.text1{
+    white-space: noWrap;
+    font-weight: 30px;
+    font-size: 30px;
+}
+@keyframes move{
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(-50%);
+
+    }
+}
+.animation{
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+
+}
+
+
+.animation:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px white;
+    
+   
+   
+}
+.btn1000{
+    transition: transform scale;
+    transition-duration: 4s;
+}
+.btn1000:hover{
+    background-color: aliceblue;
+    color: white;
+    color: black;
+   
+    
+     scale: 1.5;
+    
+}
+

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+     font-family:Arial, Helvetica, sans-serif;
+}
+header h2{
+    margin: 0;
+}
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    color: white;
+    background-color: black;
+}
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 35px;
+        font-size: 25px;
+}
+footer{ 
+    padding: 5px 0;
+    color: white;
+    background-color: black;
+    text-align: center;    
+}
+.All{
+    justify-content: center;
+    text-align: center;
+}
+.All button{
+     border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.main{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+    height: 260px;
+   
+}
+.heading{
+     color: white;
+}
+.section3 h1{
+    margin-bottom: 40px;
+    text-align: center;    
+}
+.section3{
+   height: 400px;    
+    justify-content: center;  
+    padding: 10px;
+    background-color: green;
+}
+.cards{
+    display: flex;
+      gap:80px;
+       justify-content: center;
+       padding: 25px;   
+}
+.card{
+    background-color: white;
+    box-shadow: 0,0,10px,rgba(0, 0, 0,0.1);
+    text-align: center;
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 8px;
+    height: 110px;   
+    justify-content: center;
+}
+.main button{
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+footer h2{
+    margin: 0;
+}
+.cards h1{
+    margin: 0;
+    
+}
+
+.main-section{
+    text-align: center;
+    color: white;
+}
+.main-section1{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    background-color: white;   
+    padding: 20px 40px;
+}
+.section2 h1{
+    margin: 0;
+    padding: 10px 0;
+}
+.section2{
+    background-color: #222;
+}
+.section4{
+    display: flex;
+    background-color: #222;
+     box-shadow: 0,0,10px,rgba(0, 0, 0,0.1);
+    gap:30px;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+.box1{
+    display: flex;
+    gap : 10px;
+}
+
