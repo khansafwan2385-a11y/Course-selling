@@ -23,7 +23,8 @@ header{
 }
 button{
     width:200px;
-    height:100px;
+    height:400px;
+    boredr-radius:10px;
 }
 
     nav a{
