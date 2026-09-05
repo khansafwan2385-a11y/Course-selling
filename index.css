@@ -21,6 +21,10 @@ header{
     color: white;
     background-color: black;
 }
+.sa{
+    width:100px;
+    height:60px;
+}
 
     nav a{
         color: white;
